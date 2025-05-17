@@ -4,7 +4,7 @@ let speed = document.querySelector(".speed-value");
 let searchBtn = document.querySelector(".search-btn");
 let temperature = document.querySelector(".temp-value");
 
-const apikey = "9993e8ddb94abd25cdc2ebe73dbb0dc0";
+const apikey = "enter your api key";
 
 searchBtn.addEventListener("click", async () => {
     let city = input.value.trim(); // Get the current input value
